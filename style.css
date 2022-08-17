@@ -14,6 +14,7 @@ body {
   flex-direction:column;
   justify-content:center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
@@ -74,6 +75,20 @@ h3 {
 .main__item {
   background:#D1E2D1;
   padding: 16px;
+}
+
+.main__item--reason {
+    display:block;
+}
+
+.main__item--content {
+    font-size:smaller;
+    padding:5px;
+    min-height:50px;
+    min-width: 100%;
+    display:block;
+    border:none;
+    border-radius:5px;
 }
 
 .sender {
