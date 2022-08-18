@@ -16,7 +16,7 @@
       <div class="main__heading">
         <h1 class="main__heading--name">Exit interview</h1>
         <p class="main__heading--content">
-          Dzień dobry, zbliża się termin zakończenia przez Ciebie współpracy z firmą makaDesign. Zapraszam Cię zatem do uzupełnienia poniższej ankiety. Zapewniam, że wnikliwie przeanalizujemy Twoje sugestie, a wyciągnięte wnioski przyczynią się do rozwoju naszego środowiska pracy. Proponujemy Ci następująca kolejność zdarzeń:
+          Dzień dobry,<br> zbliża się termin zakończenia przez Ciebie współpracy z firmą makaDesign. Zapraszam Cię zatem do uzupełnienia poniższej ankiety. Zapewniam, że wnikliwie przeanalizujemy Twoje sugestie, a wyciągnięte wnioski przyczynią się do rozwoju naszego środowiska pracy. Proponujemy Ci następująca kolejność zdarzeń:
         </p>
         <ol class="main__list">
           <li>Uzupełnienie ankiety</li>
@@ -28,29 +28,44 @@
 
        
     <article class="main__item">
-      <h3>Ocena satysfakcji</h3>
+      <h3>Ocena satysfakcji:</h3>
+      <p>Jak bardzo prawdopodobne jest, że polecisz nas jako pracodawcę swojemu znajomemu?</p>
+<div class="main__item--radio">
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio">0</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio"> 1</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio"> 2</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio"> 3</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio">4</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio">5</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio">6</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio">7</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio">8</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio">9</label></p>
+              <p class="special-radio"><label><input class="special-button" name="mark" type="radio">10</label></p>
+
+</div>
     </article>
 
-      <article class="main__item">
+      <article class="main__item main__item--basic">
         <h3>Informacje podstawowe:</h3>
           <p><label>Wybierz Biuro, w którym pracowałaś/eś</label>
-          <select>
+          <select class="main__option">
             <option>Biuro Projektowania</option>
             <option>Biuro Sprzedaży</option>
             <option>Biuro Zasobów Ludzkich</option>
             <option>Biuro Finansów</option>
           </select></p>
 
-          <p><label>Wskaż poziom swojego stanowiska:</label>
-            <select>
+          <p><label>Wskaż poziom swojego stanowiska:</label><br>
+            <select class="main__option">
               <option>Stażysta</option>
               <option>Specjalista</option>
               <option>Ekspert</option>
               <option>Manager</option>
             </select></p>
 
-            <p><label>Określ swój staż pracy:</label>
-              <select>
+            <p><label>Określ swój staż pracy:</label><br>
+              <select class="main__option">
                 <option>Poniżej 1 roku</option>
                 <option>1-3 lata</option>
                 <option>Powyżej 3 lat</option>
@@ -61,24 +76,30 @@
 
       <article class="main__item">
         <h3>Przyczyny odejścia:</h3>
-          <p><label class="main__item--reason"><input name="reason" value="1" type="checkbox"> Niskie wynagrodzenie</label></p>
-          <p><label class="main__item--reason"><input name="reason" value="2" type="checkbox"> Zła atmosfera pracy</label></p>
+          <p><label class="main__item--reason"><input name="reason" value="1" type="checkbox"> Niski poziom wynagrodzenia</label></p>
+          <p><label class="main__item--reason"><input name="reason" value="2" type="checkbox"> Relacje w zespole</label></p>
           <p><label class="main__item--reason"><input name="reason" value="3" type="checkbox"> Brak możliwości rozwoju</label></p>
           <p><label class="main__item--reason"><input name="reason" value="4" type="checkbox"> Zła organizacja pracy</label></p>
           <p><label class="main__item--reason"><input name="reason" value="5" type="checkbox"> Nieodpowiednie zarządzanie</label></p>
           <p><label class="main__item--reason"><input name="reason" value="6" type="checkbox"> Zbyt duża ilość obowiązków</label></p>
           <p><label class="main__item--reason"><input name="reason" value="7" type="checkbox"> Brak jasnej ściezki awansów</label></p>
           <p><label class="main__item--reason"><input name="reason" value="8" type="checkbox"> Inne - wskaż jakie:</label></p>
-          <p><label class="main__item--reason "><textarea class="main__item--content" name="reason" placeholder="Wskaż inne przyczyny"></textarea></label></p>
+          <p><label class="main__item--reason"><textarea class="main__item--content" name="reason" placeholder="Wskaż inne przyczyny"></textarea></label></p>
       </article>
 
       <article class="main__item">
-        <h3>Dodatkowe informacje</h3>
+        <h3>Informacje dodatkowe:</h3>
+        <p>Czy jest coś jeszcze, czym chciałbyś się z nami podzielić? Jesli tak - wskaż proszę poniżej.
+          <p>
+            <textarea class="main__item--content">Wpisz proszę swoje dodatkowe obserwacje i sugestie.</textarea>
+          </p>
       </article>
 
+      <div></div>
 
+<div class="main-sender">
         <submit class="sender">Wyślij</submit>
-
+</div>
     </main>
 
     <footer class="footer"></footer>
