@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  background: rgb(203, 241, 249);
+  background: linear-gradient(
+    132deg,
+    rgba(203, 241, 249, 1) 0%,
+    rgba(24, 111, 23, 0.6502976190476191) 42%,
+    rgba(24, 21, 21, 1) 100%
+  );
+  min-height: 100px;
+  min-width: 100vw;
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  color: #660708;
+}
+
+.header {
+  background: rgb(203, 241, 249);
+  background: linear-gradient(
+    132deg,
+    rgba(203, 241, 249, 1) 0%,
+    rgba(24, 111, 23, 0.6502976190476191) 42%,
+    rgba(24, 21, 21, 1) 100%
+  );
+  min-height: 100px;
+  min-width: 100vw;
+}
+
+.main {
+  min-height: 100vh;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 0px;
+  row-gap: 6px;
+  column-gap: 6px;
+  &__heading {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__heading--name {
+    color: #081c15;
+  }
+  &__heading--content {
+    display: flex;
+    justify-content: center;
+  }
+  &__item {
+    background: #d1e2d1;
+    padding: 16px;
+    &--basic {
+      display: block;
+    }
+    &--reason {
+      display: block;
+    }
+    &--content {
+      font-size: smaller;
+      padding: 5px;
+      min-height: 50px;
+      min-width: 100%;
+      display: block;
+      border: none;
+      border-radius: 5px;
+    }
+    &--radio {
+      display: flex;
+      justify-content: center;
+    }
+    &__list {
+      line-height: 1.5;
+    }
+    &__option {
+      padding: 5px;
+      font-size: smaller;
+      border: none;
+      border-radius: 5px;
+      margin-top: 5px;
+    }
+    &__table {
+      background: blue;
+      text-align: center;
+    }
+  }
+}
+
+.sender {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 0px;
+  &__button {
+    background: rgba(24, 111, 23, 0.6502976190476191);
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.special {
+  margin: 5px;
+  text-align: center;
+  &__button {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+table {
+  min-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    width: 80%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    &__heading {
+      grid-column-start: 1;
+      grid-column-end: span 2;
+    }
+    &--content {
+      line-height: 1.8;
+    }
+  }
+}

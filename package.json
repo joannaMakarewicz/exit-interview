@@ -1,0 +1,24 @@
+{
+  "name": "exit-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "npx node-sass -w style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joannaMakarewicz/exit-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joannaMakarewicz/exit-interview/issues"
+  },
+  "homepage": "https://github.com/joannaMakarewicz/exit-interview#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
