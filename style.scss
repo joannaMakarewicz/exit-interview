@@ -140,10 +140,9 @@ table {
     grid-template-rows: 1fr 1fr 1fr;
     &__heading {
       grid-column-start: 1;
-      grid-column-end: span 2;
-    }
-    &--content {
-      line-height: 1.8;
-    }
+      grid-column-end: span 2;}
+    &__heading--content {
+        line-height: 1.8;
+        }
   }
 }
