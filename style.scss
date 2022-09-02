@@ -18,11 +18,7 @@ body {
 
 .form {
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr;
   margin: 0px;
-  grid-column-gap: 6px;
-  grid-row-gap: 6px;
 }
 
 .footer {
@@ -76,6 +72,7 @@ h3 {
   &__item {
     background: #d1e2d1;
     padding: 16px;
+    margin-bottom:6px;
     &--basic {
       display: block;
     }
@@ -142,8 +139,12 @@ table {
 
 @media screen and (min-width: 768px) {
   .form {
+    display:grid;
     grid-template-columns: 2fr 1fr;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
   }
+
 
   .main {
     width: 80%;
