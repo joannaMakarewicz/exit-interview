@@ -21,10 +21,9 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0px;
-  grid-column-gap:6px;
-  grid-row-gap:6px; 
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
 }
-
 
 .footer {
   background: rgb(203, 241, 249);
@@ -40,7 +39,7 @@ body {
 }
 
 h2 {
-  align-self:flex-start;
+  align-self: flex-start;
 }
 
 h3 {
@@ -66,17 +65,14 @@ h3 {
   margin: 0px;
 
   &__heading {
-   display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
   &__heading--name {
     color: #081c15;
   }
-  &__heading--content {
-    display: flex;
-    justify-content: center;
-  }
+
   &__item {
     background: #d1e2d1;
     padding: 16px;
@@ -92,28 +88,28 @@ h3 {
       border: none;
       border-radius: 5px;
       margin-top: 16px;
-
     }
     &--radio {
       display: flex;
       justify-content: center;
     }
     &--question {
-      display:inline-block;
+      display: inline-block;
     }
     &__list {
       line-height: 1.5;
-    }}
-&__option {
-      padding: 5px;
-      font-size: smaller;
-      border: none;
-      border-radius: 5px;
-      margin-top: 5px;
-      display:block;
-      width:100%;
     }
   }
+  &__option {
+    padding: 5px;
+    font-size: smaller;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+  }
+}
 
 .sender {
   display: flex;
@@ -136,7 +132,7 @@ h3 {
     margin-bottom: 5px;
   }
   &__mark {
-    display:block;
+    display: block;
   }
 }
 
@@ -152,14 +148,14 @@ table {
   .main {
     width: 80%;
     &__heading--content {
-        line-height: 1.8;
-        }
+      line-height: 1.8;
+    }
   }
 
-.main__item--1 {
-  grid-column-start: 1;
-  grid-column-end: span 2;
-}
+  .main__item--1 {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
   .main__item--2 {
     grid-row-start: 2;
     grid-row-end: 3;
@@ -170,15 +166,15 @@ table {
   }
   .main__item--4 {
     grid-row-start: 3;
-    grid-row-end: span 2;
+    grid-row-end: 4;
   }
   .main__item--5 {
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
   }
 
   .main__item--6 {
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-row-end: span 2;
   }
 }
