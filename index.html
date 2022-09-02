@@ -15,7 +15,7 @@
       <div class="main__heading">
         <h1 class="main__heading--name">Exit interview</h1>
         <p class="main__heading--content">
-          Dzień dobry,<br />
+          <h2>Dzień dobry,</h2>
           zbliża się termin zakończenia przez Ciebie współpracy z firmą
           makaDesign. Zapraszam Cię zatem do uzupełnienia poniższej ankiety.
           Zapewniam, że wnikliwie przeanalizujemy Twoje sugestie, a wyciągnięte
@@ -31,9 +31,9 @@
         </ol>
         <p><b>Serdecznie zapraszam Cię do pierwszego etapu!</b></p>
       </div>
-
-      <article class="main__item">
-        <h3>Ocena satysfakcji:</h3>
+<form class="form">
+      <article class="main__item main__item--1">
+        <h3>Ogólna ocena satysfakcji</h3>
         <p>
           Jak bardzo prawdopodobne jest, że polecisz nas jako pracodawcę swojemu
           znajomemu?
@@ -131,46 +131,36 @@
           </p>
         </div>
       </article>
+        <article class="main__item main__item--2">
+          <h3>Oceń swoje doświadczenia z pracy w maka<i>Design</i></h3>
 
-      <article class="main__item main__item--basic">
-        <h3>Informacje podstawowe:</h3>
+          <label>Miałam/em szansę w pełni wykorzystać swoje możliwości:</label>
+          <input class="main__option" type="range" min="1" max="5" value="5" step="1" name="mark">
+        </p>
         <p>
-          <label>Wybierz Biuro, w którym pracowałaś/eś:</label>
-          <select class="main__option">
-            <option>Biuro Projektowania</option>
-            <option>Biuro Sprzedaży</option>
-            <option>Biuro Zasobów Ludzkich</option>
-            <option>Biuro Finansów</option>
-          </select>
+          <label>Otrzymałem niezbędne szkolenia i wsparcie w czasie wdrożenia:</label>
+          <input class="main__option" type="range" min="1" max="5" value="5" step="1" name="mark">
+        </p>
+        <p>
+          <label>Było dla mnie jasne, czego się ode mnie oczekuje:</label>
+          <input class="main__option" type="range" min="1" max="5" value="5" step="1" name="mark">
+        </p>
+        <p>
+          <label>Moja praca była interesująca i ciekawa:</label>
+          <input class="main__option" type="range" min="1" max="5" value="5" step="1" name="mark">
+        </p>
+        <p>
+          <label>Atmosfera w firmie była przyjazna:</label>
+          <input class="main__option" type="range" min="1" max="5" value="5" step="1" name="mark">
         </p>
 
-        <p>
-          <label>Wskaż poziom swojego stanowiska:</label><br />
-          <select class="main__option">
-            <option>Stażysta</option>
-            <option>Specjalista</option>
-            <option>Ekspert</option>
-            <option>Manager</option>
-          </select>
-        </p>
-
-        <p>
-          <label>Określ swój staż pracy:</label><br />
-          <select class="main__option">
-            <option>Poniżej 1 roku</option>
-            <option>1-3 lata</option>
-            <option>Powyżej 3 lat</option>
-          </select>
-        </p>
-        <p>
-          <label>Wskaż, kto był Twoim bezpośrednim przełożonym:</label><br />
-              <textarea class="main__item--content" placeholder="Podaj imię i nazwisko przełożonego.">
-    </textarea>
-        </p>
       </article>
 
-      <article class="main__item">
-        <h3>Przyczyny odejścia:</h3>
+
+ 
+
+      <article class="main__item main__item--3">
+        <h3>Przyczyny odejścia</h3>
         <p>
           <label class="main__item--reason"
             ><input name="reason" value="1" type="checkbox" /> Niski poziom
@@ -210,7 +200,7 @@
         <p>
           <label class="main__item--reason"
             ><input name="reason" value="7" type="checkbox" /> Brak jasnej
-            ściezki awansów</label
+            ścieżki awansów</label
           >
         </p>
         <p>
@@ -230,8 +220,9 @@
         </p>
       </article>
 
-      <article class="main__item">
-        <h3>Informacje dodatkowe:</h3>
+      
+      <article class="main__item main__item--4">
+        <h3>Informacje dodatkowe</h3>
         <p>
           <label>Czy jest coś jeszcze, czym chciałbyś się z nami podzielić? Jesli tak -
           wskaż proszę poniżej.
@@ -243,11 +234,68 @@
       </p>
       </article>
 
+      <article class="main__item main__item--5">
+        <h3>Umów spotkanie z HR Business Partnerem</h3>
+        <p>
+          <label>Jeśli zechcesz opowiedzieć nam bardziej szczegółowo o Twoich doświadczeniach z pracy w maka<i>Design</i>, wskaż termin spotkania.
+        </label>
+            <input
+            class="main__option"
+            name="date"
+            type="date"
+            >
+            <input
+            class="main__option"
+            name="time"
+            type="time"
+            >
+      </p>
+      </article>
+
+      <article class="main__item main__item--6">
+        <h3>Informacje o Tobie</h3>
+        <p>
+          <label>Wybierz Biuro, w którym pracowałaś/eś:</label>
+          <select class="main__option">
+            <option>Biuro Projektowania</option>
+            <option>Biuro Sprzedaży</option>
+            <option>Biuro Zasobów Ludzkich</option>
+            <option>Biuro Finansów</option>
+          </select>
+        </p>
+
+        <p>
+          <label>Wskaż poziom swojego stanowiska:</label>
+          <select class="main__option">
+            <option>Stażysta</option>
+            <option>Specjalista</option>
+            <option>Ekspert</option>
+            <option>Manager</option>
+          </select>
+        </p>
+
+        <p>
+          <label>Określ swój staż pracy:</label>
+          <select class="main__option">
+            <option>Poniżej 1 roku</option>
+            <option>1-3 lata</option>
+            <option>Powyżej 3 lat</option>
+          </select>
+        </p>
+        <p>
+          <label>Wskaż, kto był Twoim bezpośrednim przełożonym:
+              <input type="text" class="main__option" placeholder="Podaj imię i nazwisko przełożonego">
+          </label>
+        </p>
+      </article>
+
+
       <div></div>
 
       <div class="sender">
         <submit class="sender__button">Wyślij</submit>
       </div>
+    </form>
     </main>
 
     <footer class="footer"></footer>
