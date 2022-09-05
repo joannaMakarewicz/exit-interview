@@ -41,62 +41,74 @@ h3 {
   min-height: 100vh;
   width: 90%;
   margin: 0px; }
-  .main__heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .main__heading--name {
-    color: #081c15; }
-  .main__item {
-    background: #d1e2d1;
-    padding: 16px;
-    margin-bottom: 6px; }
-    .main__item--basic {
-      display: block; }
-    .main__item--content {
-      font-size: smaller;
-      padding: 5px;
-      min-height: 50px;
-      min-width: 100%;
-      display: block;
-      border: none;
-      border-radius: 5px;
-      margin-top: 16px; }
-    .main__item--radio {
-      display: flex;
-      justify-content: center; }
-    .main__item--question {
-      display: inline-block; }
-    .main__item__list {
-      line-height: 1.5; }
-  .main__option {
-    padding: 5px;
-    font-size: smaller;
-    border: none;
-    border-radius: 5px;
-    margin-top: 5px;
-    display: block;
-    width: 100%; }
+
+.main__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main__heading--name {
+  color: #081c15; }
+
+.main__item {
+  background: #d1e2d1;
+  padding: 16px;
+  margin-bottom: 6px; }
+
+.main__item--basic {
+  display: block; }
+
+.main__item--content {
+  font-size: smaller;
+  padding: 5px;
+  min-height: 50px;
+  min-width: 100%;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin-top: 16px; }
+
+.main__item--radio {
+  display: flex;
+  justify-content: center; }
+
+.main__item--question {
+  display: inline-block; }
+
+.main__item__list {
+  line-height: 1.5; }
+
+.main__option {
+  padding: 5px;
+  font-size: smaller;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: block;
+  width: 100%; }
 
 .sender {
   display: flex;
   justify-content: flex-end;
   margin: 16px 0px;
   grid-column-start: 2; }
-  .sender__button {
-    background: rgba(24, 111, 23, 0.650298);
-    padding: 16px;
-    border: none;
-    border-radius: 5px; }
+
+.sender__button {
+  background: rgba(24, 111, 23, 0.650298);
+  padding: 16px;
+  border: none;
+  border-radius: 5px; }
 
 .special {
   margin: 5px;
   text-align: center; }
-  .special__button {
-    display: block;
-    margin-bottom: 5px; }
-  .special__mark {
-    display: block; }
+
+.special__button {
+  display: block;
+  margin-bottom: 5px; }
+
+.special__mark {
+  display: block; }
 
 table {
   min-width: 100%; }
@@ -107,6 +119,8 @@ table {
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 6px;
     grid-row-gap: 6px; }
+  .main {
+    width: 80%; }
   .main__heading--content {
     line-height: 1.8; }
   .main__item {
