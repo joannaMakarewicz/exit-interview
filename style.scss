@@ -147,9 +147,11 @@ table {
 
 
   .main {
-    width: 80%;
     &__heading--content {
       line-height: 1.8;
+    }
+    &__item {
+      margin-bottom: 0;
     }
   }
 

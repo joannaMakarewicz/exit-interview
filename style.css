@@ -107,10 +107,10 @@ table {
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 6px;
     grid-row-gap: 6px; }
-  .main {
-    width: 80%; }
-    .main__heading--content {
-      line-height: 1.8; }
+  .main__heading--content {
+    line-height: 1.8; }
+  .main__item {
+    margin-bottom: 0; }
   .main__item--1 {
     grid-column-start: 1;
     grid-column-end: span 2; }
