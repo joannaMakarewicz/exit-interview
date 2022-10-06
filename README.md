@@ -18,7 +18,7 @@ Project contains of six section of questions:
 ###Languages
 
 Languages used to build Project:
--HTML
--CSS
--SCSS
--JS.
+- HTML
+- CSS
+- SCSS
+- JS.
