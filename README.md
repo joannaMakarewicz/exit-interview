@@ -1,12 +1,11 @@
-# exit-interview
-
-#Description
+![cover](https://joannamakarewicz.github.io/exit-interview-webpack/exit-interview.png)
+# Description
 
 Project is dedicated for employers, who want to check out an opinion of their emoyees. The best oppotunity for knowing that is a moment, when some emploee wants quit his job. It gives the most real results. 
 
 You can check this Project here: https://joannamakarewicz.github.io/exit-interview/
 
-##Contents
+## Contents
 
 Project contains of six section of questions:
   1. General opinion.
@@ -16,10 +15,10 @@ Project contains of six section of questions:
   5. Information about emploee for better analyses process.
   6. Calendar for meeting with Human Resourses Business Partner in case something should be discussed.
 
-###Languages
+### Languages
 
 Languages used to build Project:
--HTML
--CSS
--SCSS
--JS.
+- HTML
+- CSS
+- SCSS
+- JS.
